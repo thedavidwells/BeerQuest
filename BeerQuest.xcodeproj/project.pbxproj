@@ -17,7 +17,6 @@
 		5220D7DC1813066200577FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5220D7DA1813066200577FB2 /* Main.storyboard */; };
 		5220D7DF1813066200577FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220D7DE1813066200577FB2 /* ViewController.m */; };
 		5220D7E21813066300577FB2 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220D7E11813066300577FB2 /* MyScene.m */; };
-		5220D7E41813066300577FB2 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 5220D7E31813066300577FB2 /* Spaceship.png */; };
 		5220D7E61813066300577FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5220D7E51813066300577FB2 /* Images.xcassets */; };
 		5220D7ED1813066300577FB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5220D7EC1813066300577FB2 /* XCTest.framework */; };
 		5220D7EE1813066300577FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5220D7C61813066200577FB2 /* Foundation.framework */; };
@@ -26,6 +25,7 @@
 		5220D7F91813066300577FB2 /* BeerQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220D7F81813066300577FB2 /* BeerQuestTests.m */; };
 		A6C600F818131D8F0076BE50 /* chars.gif in Resources */ = {isa = PBXBuildFile; fileRef = A6C600F718131D8F0076BE50 /* chars.gif */; };
 		A6C600FC1813239C0076BE50 /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C600FB1813239C0076BE50 /* dirt.png */; };
+		A6C600FE181334DE0076BE50 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C600FD181334DE0076BE50 /* player.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		5220D7DE1813066200577FB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5220D7E01813066300577FB2 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		5220D7E11813066300577FB2 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		5220D7E31813066300577FB2 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		5220D7E51813066300577FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5220D7EB1813066300577FB2 /* BeerQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5220D7EC1813066300577FB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,6 +63,7 @@
 		5220D7F81813066300577FB2 /* BeerQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeerQuestTests.m; sourceTree = "<group>"; };
 		A6C600F718131D8F0076BE50 /* chars.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chars.gif; sourceTree = "<group>"; };
 		A6C600FB1813239C0076BE50 /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
+		A6C600FD181334DE0076BE50 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,6 @@
 				5220D7DE1813066200577FB2 /* ViewController.m */,
 				5220D7E01813066300577FB2 /* MyScene.h */,
 				5220D7E11813066300577FB2 /* MyScene.m */,
-				5220D7E31813066300577FB2 /* Spaceship.png */,
 				5220D7E51813066300577FB2 /* Images.xcassets */,
 				5220D7CF1813066200577FB2 /* Supporting Files */,
 			);
@@ -181,6 +180,7 @@
 		A6C600F518131B450076BE50 /* characters */ = {
 			isa = PBXGroup;
 			children = (
+				A6C600FD181334DE0076BE50 /* player.png */,
 				A6C600F718131D8F0076BE50 /* chars.gif */,
 			);
 			name = characters;
@@ -272,7 +272,7 @@
 			files = (
 				5220D7D31813066200577FB2 /* InfoPlist.strings in Resources */,
 				5220D7E61813066300577FB2 /* Images.xcassets in Resources */,
-				5220D7E41813066300577FB2 /* Spaceship.png in Resources */,
+				A6C600FE181334DE0076BE50 /* player.png in Resources */,
 				A6C600FC1813239C0076BE50 /* dirt.png in Resources */,
 				5220D7DC1813066200577FB2 /* Main.storyboard in Resources */,
 				A6C600F818131D8F0076BE50 /* chars.gif in Resources */,
