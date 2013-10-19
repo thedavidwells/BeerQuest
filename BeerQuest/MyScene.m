@@ -26,17 +26,21 @@
         NSLog(@"Size: %@", NSStringFromCGSize(size));
         
         self.backgroundColor = [SKColor colorWithRed:1 green:1 blue:1 alpha:1.0];
+        
+        
+        // Add map to scene
+        self.map = [SKSpriteNode spriteNodeWithImageNamed: @"dirt.png"];
+        self.map.position = self.frame.origin;
+        
+        
         // Add player to scene.
         self.player = [SKSpriteNode spriteNodeWithImageNamed:@"player"];
         self.player.position = CGPointMake( self.frame.size.width/2, self.frame.size.height/2 );
         [self.player setSize:CGSizeMake(22, 22)];
-        // Add map to scene
-        self.map = [SKSpriteNode spriteNodeWithImageNamed: @"dirt.png"];
-        self.map.position = self.frame.origin;
+
+        
+        // Add objects to frame
         [self addChild:self.map];
-        
-        
-        
         [self addChild:self.player];
     
         
