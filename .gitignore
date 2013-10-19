@@ -20,3 +20,15 @@ DerivedData
 #CocoaPods
 Pods
 *.idx
+
+*.xcindexdb
+
+*.xcindexdb
+
+*.xcindexdb
+
+*.xcindexdb-shm
+
+*.xcindexdb-wal
+
+*.strings-file
