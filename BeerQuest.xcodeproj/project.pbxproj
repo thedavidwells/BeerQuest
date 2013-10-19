@@ -24,6 +24,8 @@
 		5220D7EF1813066300577FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5220D7CA1813066200577FB2 /* UIKit.framework */; };
 		5220D7F71813066300577FB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5220D7F51813066300577FB2 /* InfoPlist.strings */; };
 		5220D7F91813066300577FB2 /* BeerQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220D7F81813066300577FB2 /* BeerQuestTests.m */; };
+		A6C600F818131D8F0076BE50 /* 16x24rpgdb.gif in Resources */ = {isa = PBXBuildFile; fileRef = A6C600F718131D8F0076BE50 /* 16x24rpgdb.gif */; };
+		A6C600FA18131DEB0076BE50 /* Burnt Coal Ashes Tiling.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C600F918131DEB0076BE50 /* Burnt Coal Ashes Tiling.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		5220D7F41813066300577FB2 /* BeerQuestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeerQuestTests-Info.plist"; sourceTree = "<group>"; };
 		5220D7F61813066300577FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5220D7F81813066300577FB2 /* BeerQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeerQuestTests.m; sourceTree = "<group>"; };
+		A6C600F718131D8F0076BE50 /* 16x24rpgdb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 16x24rpgdb.gif; sourceTree = "<group>"; };
+		A6C600F918131DEB0076BE50 /* Burnt Coal Ashes Tiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burnt Coal Ashes Tiling.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		5220D7CE1813066200577FB2 /* BeerQuest */ = {
 			isa = PBXGroup;
 			children = (
+				A6C600F418131B380076BE50 /* art */,
 				5220D7D71813066200577FB2 /* AppDelegate.h */,
 				5220D7D81813066200577FB2 /* AppDelegate.m */,
 				5220D7DA1813066200577FB2 /* Main.storyboard */,
@@ -162,6 +167,31 @@
 				5220D7F51813066300577FB2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6C600F418131B380076BE50 /* art */ = {
+			isa = PBXGroup;
+			children = (
+				A6C600F618131B7A0076BE50 /* map_tiles */,
+				A6C600F518131B450076BE50 /* characters */,
+			);
+			name = art;
+			sourceTree = "<group>";
+		};
+		A6C600F518131B450076BE50 /* characters */ = {
+			isa = PBXGroup;
+			children = (
+				A6C600F718131D8F0076BE50 /* 16x24rpgdb.gif */,
+			);
+			name = characters;
+			sourceTree = "<group>";
+		};
+		A6C600F618131B7A0076BE50 /* map_tiles */ = {
+			isa = PBXGroup;
+			children = (
+				A6C600F918131DEB0076BE50 /* Burnt Coal Ashes Tiling.png */,
+			);
+			name = map_tiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +273,9 @@
 				5220D7D31813066200577FB2 /* InfoPlist.strings in Resources */,
 				5220D7E61813066300577FB2 /* Images.xcassets in Resources */,
 				5220D7E41813066300577FB2 /* Spaceship.png in Resources */,
+				A6C600FA18131DEB0076BE50 /* Burnt Coal Ashes Tiling.png in Resources */,
 				5220D7DC1813066200577FB2 /* Main.storyboard in Resources */,
+				A6C600F818131D8F0076BE50 /* 16x24rpgdb.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +508,7 @@
 				5220D7FE1813066300577FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5220D7FF1813066300577FB2 /* Build configuration list for PBXNativeTarget "BeerQuestTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +517,7 @@
 				5220D8011813066300577FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
