@@ -25,6 +25,7 @@
 		5220D7F71813066300577FB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5220D7F51813066300577FB2 /* InfoPlist.strings */; };
 		5220D7F91813066300577FB2 /* BeerQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5220D7F81813066300577FB2 /* BeerQuestTests.m */; };
 		A6C600F818131D8F0076BE50 /* chars.gif in Resources */ = {isa = PBXBuildFile; fileRef = A6C600F718131D8F0076BE50 /* chars.gif */; };
+		A6C600FC1813239C0076BE50 /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C600FB1813239C0076BE50 /* dirt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		5220D7F61813066300577FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5220D7F81813066300577FB2 /* BeerQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeerQuestTests.m; sourceTree = "<group>"; };
 		A6C600F718131D8F0076BE50 /* chars.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chars.gif; sourceTree = "<group>"; };
+		A6C600FB1813239C0076BE50 /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		A6C600F618131B7A0076BE50 /* map_tiles */ = {
 			isa = PBXGroup;
 			children = (
+				A6C600FB1813239C0076BE50 /* dirt.png */,
 			);
 			name = map_tiles;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				5220D7D31813066200577FB2 /* InfoPlist.strings in Resources */,
 				5220D7E61813066300577FB2 /* Images.xcassets in Resources */,
 				5220D7E41813066300577FB2 /* Spaceship.png in Resources */,
+				A6C600FC1813239C0076BE50 /* dirt.png in Resources */,
 				5220D7DC1813066200577FB2 /* Main.storyboard in Resources */,
 				A6C600F818131D8F0076BE50 /* chars.gif in Resources */,
 			);
