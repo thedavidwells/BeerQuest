@@ -16,7 +16,7 @@ DerivedData
 .idea/
 *.hmap
 *.xccheckout
-
+/BeerQuest/DerivedData
 #CocoaPods
 Pods
 *.idx
