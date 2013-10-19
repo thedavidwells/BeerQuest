@@ -32,3 +32,5 @@ Pods
 *.xcindexdb-wal
 
 *.strings-file
+
+*.strings-file
