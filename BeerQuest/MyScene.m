@@ -23,7 +23,7 @@
         
         NSLog(@"Size: %@", NSStringFromCGSize(size));
         
-        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
+        self.backgroundColor = [SKColor colorWithRed:1 green:1 blue:1 alpha:1.0];
         
         self.player = [SKSpriteNode spriteNodeWithImageNamed:@"player"];
         self.player.position = CGPointMake( self.player.size.width/2, self.frame.size.height/2 );
